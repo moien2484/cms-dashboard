@@ -1,0 +1,25 @@
+.btn-toggle-sidebar2 {
+  background-color: rgba(36, 105, 92, 0.2) !important;
+  color: #24695c !important;
+  padding: 5px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: fixed !important;
+  z-index: 2 !important;
+  top: 77px !important;
+  right: 0px !important;
+  display: none !important;
+}
+.btn-toggle-sidebar2:focus{
+    box-shadow: none !important;
+    border: 1px solid #24695c !important;
+}
+.btn-toggle-sidebar2 i {
+    font-size: 18px;
+}
+@media screen and (max-width:992px) {
+    .btn-toggle-sidebar2{
+        display: block !important;
+    }
+}

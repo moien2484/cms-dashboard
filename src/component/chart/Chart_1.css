@@ -1,0 +1,34 @@
+.chartcustom {
+  background-color: #fff;
+  padding-left: 25px;
+  border: 2px solid #e6edef;
+  
+}
+.subject-chart h2 {
+  font-size: 20px;
+  padding: 10px 10px 0px 0px;
+}
+.sub-chart {
+  display: flex;
+  gap: 12px;
+  margin-right: 20px;
+  margin-top: 8px;
+  align-items: center;
+}
+.sub-chart h5 {
+  font-size: 12px;
+  color: #24695c;
+}
+.sub-chart i{
+  font-size: 18px;
+  color: #24695c;
+}
+.sub-chart p {
+  font-size: 11px;
+  color: #999;
+}
+@media only screen and (max-width: 992px) {
+    .chartcustom {
+margin-top: 30px;
+      }
+  }

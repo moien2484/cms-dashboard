@@ -1,0 +1,62 @@
+/* .custom-acardeon-header {
+  border: none !important;
+  outline: none !important;
+  font-weight: 700;
+  padding: 12px !important;
+  margin-bottom: 5px !important;
+  border-radius: 10px !important;
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+.custom-acardeon-header::after {
+  margin-right: 10px !important;
+}
+.custom-acardeon-header:focus {
+  box-shadow: none !important;
+}*/
+ .general {
+  height: 370px;
+  overflow-y: auto;
+  margin-left: -20px;
+  padding-left: 15px;
+}
+.general::-webkit-scrollbar {
+  width: 10px;
+}
+.general::-webkit-scrollbar-track {
+  background: #ffff;
+  border-bottom: 10px;
+}
+.general::-webkit-scrollbar-thumb {
+  background: #e6edef;
+  border-radius: 10px;
+}
+.custom-acardeon-header:not(.collapsed) {
+  color: unset !important ;
+  background-color: unset !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: none !important;
+} 
+.sub-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 13px;
+}
+.sub-menu li{
+  padding: 6px 0px;
+  color: #999;
+  font-weight: 600;
+  transition-property: all;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+.sub-menu li:hover {
+  color: #24695c;
+  text-shadow: 0px 7px 10px rgba(36, 105, 92, 0.3);
+}
+:where(.css-dev-only-do-not-override-240cud).ant-collapse {
+  background-color: unset !important;
+  border: none !important;
+}

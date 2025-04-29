@@ -1,0 +1,14 @@
+.color-green{
+    color: #24695c;
+}
+.color-orange{
+    color: #ba895d;
+}
+html, body, #root {
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important; 
+    display: flex !important;
+    flex-direction: column !important;
+  }

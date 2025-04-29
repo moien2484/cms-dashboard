@@ -1,0 +1,88 @@
+.saidbar {
+  background-color: #fefeff;
+  position: sticky;
+  width: 250px;
+  border: 2px solid #e6edef;
+  border-top: unset;
+  /* overflow-y: auto; */
+  height: 100%;
+}
+.header-original-left-saidbar {
+  border-bottom: 1px solid #e6edef;
+  padding-bottom: 20px;
+}
+.bx-menu {
+  font-size: 22px;
+  color: #24695c;
+  cursor: pointer;
+}
+.main-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-nav {
+  border-radius: 50%;
+  border: 10px solid rgba(36, 105, 92, 0.2);
+}
+.title-main-nav {
+  font-size: 18px;
+  margin-right: 8px;
+}
+.position-main-nav {
+  font-size: 12px;
+  color: #999;
+  margin-top: 5px;
+}
+/* .parent-user-subject{
+    margin-right: 8px;
+} */
+.badge-main-nav {
+  background-color: #24695c !important;
+  box-shadow: 0px 7px 10px rgba(36, 105, 92, 0.3);
+  font-size: 10px;
+}
+.parent-icon-setting {
+  position: absolute;
+  left: 30px;
+  color: #24695c;
+  background-color: rgba(36, 105, 92, 0.1);
+  border-radius: 100%;
+  padding: 2px;
+  height: 28px;
+  width: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.parent-flow {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 10px;
+  font-size: 13px;
+  padding: 0px 20px;
+}
+.parent-flow li span {
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+.parent-flow li p {
+  margin-top: 8px;
+  color: #999;
+}
+.midle-flow-main-nav {
+  width: 3px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #e6edef;
+}
+.title-general {
+  padding-bottom: 10px;
+  color: #24695c;
+  font-size: 20px;
+  margin-right: 10px;
+  border-bottom: 1px solid #efefef;
+}
+

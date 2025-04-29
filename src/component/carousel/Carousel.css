@@ -1,0 +1,45 @@
+.card-body-carousel {
+  border: 1px solid #e6edef;
+  height: 176px;
+  padding: 10px 40px;
+  border: 1px solid #e6edef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+.card-body-carousel p {
+  font-size: 12px;
+  color: #999;
+}
+.card-body-carousel h2 {
+  color: #24695c;
+}
+.card-body-carousel button {
+    color: #24695c;
+    background-color: #e6edef;
+    border: 1px solid #e6edef;
+    transition-property: all;
+    transition-duration: 0.3s;
+    padding: 5px 8px;
+    font-size: 13px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.card-body-carousel button:hover {
+  color: #fff;
+  background-color: #24695c;
+  border: 1px solid #24695c;
+}
+.users-row-1,
+.users-row-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: #3eb59f !important;
+}
+.carousel-control-next-icon , .carousel-control-prev-icon{
+    background-color: #3eb59f !important;
+}

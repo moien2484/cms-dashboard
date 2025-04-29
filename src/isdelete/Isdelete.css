@@ -1,0 +1,50 @@
+.parent-delete {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-delet {
+  background-color: #e6edef;
+  width: 250px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.text-delete {
+  color: #24695c;
+  font-weight: 500;
+}
+.not-delete {
+  background-color: rgba(210, 45, 61, 0.1);
+  color: #d22d3d;
+  border: 1px solid #d22d3d;
+  font-size: 16px;
+  transition-property: all;
+  transition-duration: 0.2s;
+  padding: 5px 10px;
+}
+.not-delete:hover {
+  color: #fff;
+  background-color: #d22d3d;
+}
+.yes-delete {
+  color: #24695c;
+  background-color: #e6edef;
+  border: 1px solid #24695c;
+  margin-left: 10px;
+  font-size: 16px;
+  transition-property: all;
+  transition-duration: 0.2s;
+  padding: 5px 10px;
+}
+.yes-delete:hover {
+  color: #fff;
+  background-color: #24695c;
+}

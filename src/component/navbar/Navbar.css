@@ -1,0 +1,210 @@
+
+@media screen and (max-width:992px){
+  .saidbar{
+    display: none;
+  }
+  .header-left-icon{
+    display: none;
+  }
+}
+.header-left {
+  background-color: #fff;
+  /* border: 1px solid #e6edef; */
+  border-top: unset;
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  align-items: center;
+  color: #24695c;
+  width: 20%;
+}
+.header-left-logo {
+  display: flex;
+  width: 80px;
+  justify-content: space-around;
+  align-items: center;
+  color: #24695c;
+}
+.bx-home-heart {
+  font-size: 22px;
+}
+.custom-navbar {
+  border: 1px solid #e6edef;
+}
+.personal-text p {
+  font-size: 12px;
+  color: #999;
+  font-weight: 400;
+}
+.personal-text h3 {
+  color: #24695c;
+  font-size: 18px;
+  text-align: justify;
+}
+.list-item-sub-menu {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-bottom: 1px solid #e6edef !important;
+  padding: 18px 10px !important;
+  /* border-radius: 8px; */
+}
+.time-message {
+  font-size: 10px;
+  color: #24695c;
+  margin-top: -20px;
+}
+.img-sub-menu {
+  margin-left: 8px;
+}
+.img-sub-menu img {
+  width: 40px;
+}
+.custom-dropdown-toggle::after {
+  display: none !important;
+}
+.custom-dropdown-toggle {
+  color: black !important;
+  border-radius: 10px;
+}
+.bx-message,
+.bx-bell {
+  vertical-align: middle;
+  margin-left: 4px;
+}
+.custom-dropdown-toggle:hover {
+  color: #24695c !important;
+  background-color: #e6edef !important;
+}
+.list-item-sub-menu:hover {
+  background-color: #e6edef !important;
+}
+.last-item-dropdown {
+  text-align: center;
+  padding: 10px 0px 2px 0px;
+}
+.last-item-dropdown a {
+  color: #24695c !important;
+  font-weight: 500;
+}
+.last-item-dropdown:hover {
+  background-color: #e6edef !important;
+}
+.custom-dropdown-toggle.show {
+  color: #24695c !important;
+  background-color: #e6edef !important;
+  border-radius: 10px;
+}
+.notif-content h3 {
+  color: #24695c;
+  font-size: 16px;
+  text-align: justify;
+}
+.notif-content p {
+  font-size: 12px;
+  color: #999;
+  font-weight: 400;
+  margin-top: 6px;
+  float: inline-start;
+}
+/* .custom-dropdown-menu {
+  width: 250px;
+} */
+.alarm-red {
+  width: 5px;
+  height: 5px;
+  background-color: #d22d3d;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+}
+.icon-sub-menu {
+  color: #24695c;
+  background-color: #e6edef;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  margin-left: 12px;
+}
+.icon-sub-menu.check-orange {
+  background-color: rgba(186, 137, 93, 0.1);
+  color: #ba895d;
+}
+.icon-sub-menu.check-red {
+  background-color: rgba(210, 45, 61, 0.1);
+  color: #d22d3d;
+}
+.special-red:hover .check-red {
+  background-color: #d22d3d !important;
+  color: #fff !important;
+}
+.special-orange:hover .check-orange {
+  background-color: #ba895d !important;
+  color: #fff !important;
+}
+.special-orange:hover .check-orange {
+  background-color: #ba895d !important;
+  color: #fff !important;
+}
+.list-item-sub-menu:hover .icon-sub-menu {
+  background-color: #24695c;
+  color: #fff !important;
+}
+.special-red:hover .notif-content p,
+.special-red:hover .notif-content h3 {
+  color: #d22d3d;
+}
+.special-orange:hover .notif-content p,
+.special-orange:hover .notif-content h3 {
+  color: #ba895d;
+}
+.special-orange:hover {
+  background-color: rgba(186, 137, 93, 0.1) !important ;
+}
+.special-red:hover {
+  background-color: rgba(210, 45, 61, 0.1) !important;
+}
+.list-item-sub-menu-first p {
+  font-weight: 500;
+  font-size: 13px;
+}
+.list-item-sub-menu-first span {
+  background-color: #e6edef;
+  padding: 7px 7px 4px 5px;
+}
+@media only screen and (min-width: 992px) {
+  .custom-dropdown-menu-3,
+  .custom-dropdown-menu-2 {
+    width: 250px !important;
+  }
+  .parent-search-box-navbar {
+    width: 40% !important;
+  }
+}
+.custom-dropdown-menu-3 li {
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  padding: 0px 10px;
+}
+.custom-dropdown-menu-3 .bx-star {
+  color: rgb(250, 159, 68);
+  font-size: 18px;
+}
+.custom-dropdown-menu-3 .bxs-star {
+  color: rgb(250, 159, 68);
+  font-size: 18px;
+}
+.search-box-navbar {
+  outline: none !important;
+  border: none !important;
+  border-bottom: 2px solid #e6edef !important;
+}
+.search-box-navbar:focus {
+  box-shadow: none !important;
+  border-color: #24695c !important;
+}

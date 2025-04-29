@@ -1,0 +1,23 @@
+@font-face{
+    font-family: sahel;
+    src: url("./font/Sahel.ttf") format("ttf") ;
+}
+body , html, * {
+    font-family: sahel , sans-serif;
+}
+
+.main{
+    flex: 1;
+    background-color: #f5f7fb;
+    width: 100%;
+    overflow-y: auto;
+}
+.link , .link:hover{
+    text-decoration: none;
+  }
+.main-container{
+    display: flex;
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+}

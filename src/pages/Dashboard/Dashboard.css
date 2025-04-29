@@ -1,0 +1,296 @@
+.poster {
+  position: relative;
+  background-color: #418578;
+  padding: 10px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+}
+.poster h1 {
+  color: #e6edef;
+  text-align: center;
+  font-size: 30px;
+}
+.poster p {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  margin-top: 10px;
+  padding: 0px 5px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.poster a {
+  color: #24695c;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  background-color: #e6edef;
+  border-color: #e6edef;
+  padding: 5px 8px;
+  text-decoration: none;
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+
+.poster a:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #24695c !important;
+}
+
+.card-child-1 , .card-child-2 {
+  border-color: #ede7e4;
+  background-color: #fff;
+  justify-content: space-evenly;
+  display: flex;
+  height: 175px;
+  flex-direction: column;
+  align-items: center;
+  transition-property: all;
+  transition-duration: 0.4s;
+  width: 95%;
+}
+.bx-basketball {
+  color: #ba895d;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transition-property: all;
+  transition-duration: 0.4s;
+
+}
+.parent-icon-loss {
+  background-color: rgba(186, 137, 93, 0.1);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  transition-property: all;
+  transition-duration: 0.4s;
+}
+.parent-icon-income{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  background-color: rgba(36, 105, 92, 0.1);
+  transition-property: all;
+  transition-duration: 0.4s;
+}
+.bxl-xing{
+  color: #24695c;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transition-property: all;
+  transition-duration: 0.4s;
+}
+.number-card-child {
+  font-weight: 700;
+  font-size: 20px;
+}
+.text-card-child{
+  color: #999;
+  font-size: 12px;
+  font-weight: 500;
+}
+.loss span{
+  font-size: 12px;
+  color: #ba895d;
+}
+.incom span{
+  font-size: 12px;
+  color: #24695c;
+}
+.loss{
+  text-align: center;
+}
+.incom{
+  text-align: center;
+}
+.loss i {
+  color: #ba895d;
+  color: #ba895d;
+  margin-left: 5px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.incom i {
+  color: #24695c;
+  margin-left: 5px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.card-child-2:hover .bx-basketball{
+color: #fff;
+}
+.card-child-2:hover .parent-icon-loss{
+  background-color:#ba895d;
+}
+.card-child-1:hover .bxl-xing{
+color: #fff;
+}
+.card-child-1:hover .parent-icon-income{
+  background-color:#24695c;
+}
+@media only screen and (max-width: 768px) {
+
+  .card-child-2{
+  margin-top: 12px;
+  }
+}
+.poster {
+  position: relative;
+  background-color: #418578;
+  padding: 10px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+}
+.poster h1 {
+  color: #e6edef;
+  text-align: center;
+  font-size: 30px;
+}
+.poster p {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  margin-top: 10px;
+  padding: 0px 5px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.poster a {
+  color: #24695c;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  background-color: #e6edef;
+  border-color: #e6edef;
+  padding: 5px 8px;
+  text-decoration: none;
+  transition-property: all;
+  transition-duration: 0.3s;
+}
+
+.poster a:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #24695c !important;
+}
+
+.card-child-1 , .card-child-2 {
+  border-color: #ede7e4;
+  background-color: #fff;
+  justify-content: space-evenly;
+  display: flex;
+  height: 175px;
+  flex-direction: column;
+  align-items: center;
+  transition-property: all;
+  transition-duration: 0.4s;
+  width: 95%;
+}
+.bx-basketball {
+  color: #ba895d;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transition-property: all;
+  transition-duration: 0.4s;
+
+}
+.parent-icon-loss {
+  background-color: rgba(186, 137, 93, 0.1);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  transition-property: all;
+  transition-duration: 0.4s;
+}
+.parent-icon-income{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  background-color: rgba(36, 105, 92, 0.1);
+  transition-property: all;
+  transition-duration: 0.4s;
+}
+.bxl-xing{
+  color: #24695c;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transition-property: all;
+  transition-duration: 0.4s;
+}
+.number-card-child {
+  font-weight: 700;
+  font-size: 20px;
+}
+.text-card-child{
+  color: #999;
+  font-size: 12px;
+  font-weight: 500;
+}
+.loss span{
+  font-size: 12px;
+  color: #ba895d;
+}
+.incom span{
+  font-size: 12px;
+  color: #24695c;
+}
+.loss{
+  text-align: center;
+}
+.incom{
+  text-align: center;
+}
+.loss i {
+  color: #ba895d;
+  color: #ba895d;
+  margin-left: 5px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.incom i {
+  color: #24695c;
+  margin-left: 5px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+.card-child-2:hover .bx-basketball{
+color: #fff;
+}
+.card-child-2:hover .parent-icon-loss{
+  background-color:#ba895d;
+}
+.card-child-1:hover .bxl-xing{
+color: #fff;
+}
+.card-child-1:hover .parent-icon-income{
+  background-color:#24695c;
+}
+@media only screen and (max-width: 768px) {
+
+  .card-child-2{
+  margin-top: 12px;
+  }
+}

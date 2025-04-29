@@ -1,0 +1,160 @@
+.parent-chart-circle {
+  background-color: #fff;
+  position: relative;
+  border: 2px solid #e6edef;
+}
+.text-parent-chart-circle {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 35%;
+  left: 6%;
+  /* height: 100px;
+  justify-content: space-evenly; */
+  font-weight: 600;
+}
+.text-parent-chart-circle p {
+  margin-bottom: 8px;
+}
+.header-chart-circle {
+  padding: 15px;
+  position: relative;
+}
+.header-chart-circle h2 {
+  font-size: 20px;
+}
+.subject-patent-chart-circle p {
+  font-size: 15px;
+  color: #999;
+  padding: 0px 18px 0px 0px;
+}
+.subject-patent-chart-circle p i {
+  color: #24695c;
+  margin-left: 5px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+@media screen and (max-width: 1435px) and (min-width: 1200px) {
+  .text-parent-chart-circle {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .text-parent-chart-circle {
+    left: 11%;
+    font-size: 12px;
+    top: 33%;
+  }
+  .text-parent-chart-circle p {
+    margin-bottom: 15px;
+  }
+}
+.parent-activity {
+  background-color: #fff;
+  overflow-x: auto;
+  border: 2px solid #e6edef;
+}
+@media screen and (max-width : 1200px){
+  .parent-activity{
+    margin-top: 20px;
+  }
+}
+.header-activity {
+  padding: 15px;
+  position: relative;
+}
+.header-activity h2 {
+  font-size: 20px;
+}
+.text-activity h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.text-activity p {
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.body-activity {
+  padding: 15px;
+  width: 140%;
+}
+@media only screen and (max-width:1200px){
+  .body-activity {
+    width: 100%;
+  }
+}
+.icon-activity i {
+  font-size: 25px;
+  margin-left: 10px;
+}
+.delet{
+  background-color: rgba(210, 45, 61, 0.1);
+  color: #d22d3d;
+  border: 1px solid #d22d3d;
+  font-size: 12px;
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+.done{
+  color: #24695c ;
+  background-color: #e6edef ;
+  border: 1px solid #24695c;
+  margin-left: 10px;
+  font-size: 12px;
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+.delet:hover{
+  color: #fff;
+  background-color: #d22d3d;
+}
+.done:hover{
+  color: #fff;
+  background-color: #24695c;
+}
+.done.doned{
+  color: #fff;
+  background-color: #24695c;
+}
+.parent-cahrt-3{
+  background-color: #fff;
+  border: 2px solid #e6edef;
+}
+@media only screen and (max-width:768px){
+  .parent-cahrt-3 {
+    margin-top: 20px;
+  }
+}
+.body-chart-3{
+  padding: 20px;
+}
+.header-cahrt-3{
+  padding: 15px;
+  position: relative;
+}
+.header-cahrt-3 h2{
+  font-size: 20px;
+}
+.list-items-activity{
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list-items-activity.done-activity{
+  background-color: #e6edef;
+  color: #24695c;
+}
+.list-items-activity:hover{
+  background-color: rgba(186, 137, 93, 0.1);
+}
+.list-items-activity:hover .icon-activity i  ,.list-items-activity:hover .text-activity h2 {
+  color: #ba895d;
+}
+
+
+
+
